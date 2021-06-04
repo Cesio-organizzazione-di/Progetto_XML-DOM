@@ -16,7 +16,7 @@
       </tattica>
       <ultimate>
         <nome>Istinto primordiale</nome>
-        <descrizione>Acuisce i sensi, permettendoti di muoverti più velocemente e segnalando la preda</descrizione>
+        <descrizione>Acuisce i sensi, permettendoti di muoverti pi&#249; velocemente e segnalando la preda</descrizione>
       </ultimate>
     </abilita>
     <foto>immagini/leggende/bloodhound.png</foto>
@@ -58,7 +58,7 @@
       </tattica>
       <ultimate>
         <nome>Capsula assistenza</nome>
-        <descrizione>Rilascia una capsula piena di equipaggiamento difensivo di alta qualità</descrizione>
+        <descrizione>Rilascia una capsula piena di equipaggiamento difensivo di alta qualit&#224;</descrizione>
       </ultimate>
     </abilita>
     <foto>immagini/leggende/lifeline.png</foto>
@@ -109,7 +109,7 @@
     <leggenda>
     <nome>Octane</nome>
     <classe>Assalto</classe>
-    <descrizione>Temerario ad alta velocità</descrizione>
+    <descrizione>Temerario ad alta velocit&#224;</descrizione>
     <abilita>
       <passiva>
         <nome>Pronta guarigione</nome>
@@ -117,7 +117,7 @@
       </passiva>
       <tattica>
         <nome>Stimolanti</nome>
-        <descrizione>Aumenta la tua velocità del 30% per 6 secondi. Ti costerà della salute</descrizione>
+        <descrizione>Aumenta la tua velocità del 30% per 6 secondi. Ti coster&#224; della salute</descrizione>
       </tattica>
       <ultimate>
         <nome>Trampolino</nome>
@@ -134,7 +134,7 @@
     <abilita>
       <passiva>
         <nome>Lampo di genio</nome>
-        <descrizione>Accelerante ultimate carica completamente la tua abilità ultimate</descrizione>
+        <descrizione>Accelerante ultimate carica completamente la tua abilit&#224; ultimate</descrizione>
       </passiva>
       <tattica>
         <nome>Difesa perimetro</nome>
@@ -151,7 +151,7 @@
   <leggenda>
     <nome>Loba</nome>
     <classe>Healer</classe>
-    <descrizione>Ladra dell'alta società</descrizione>
+    <descrizione>Ladra dell'alta societ&#224;</descrizione>
     <abilita>
       <passiva>
         <nome>Occhio di lince</nome>
