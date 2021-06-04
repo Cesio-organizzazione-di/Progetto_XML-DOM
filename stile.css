@@ -1,265 +1,254 @@
-
 .index{
 	background-image: url("immagini/sfondo2.jpg");
+	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
 .leggende{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("immagini/wraith.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("immagini/wraith.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .mappe{
-    background-image:linear-gradient(rgba(0,0,0,0.4) , rgba(0,0,0,0.4)), url("immagini/original.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("immagini/original.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
+
 .menu{
-    width:100%;
-	position: fixed;
-	z-index: 98;
-	left:0;
+	width:100%;
+	position:fixed;
 	padding-left: 7%;
 	padding-top: 1%;
-	padding-bottom:1%;
-	top: 0; 
+	padding-bottom: 1%;
+	top: 0%;
+	z-index: 98;
+	left: 0;
 	background-color: black;
 }
 
 .menu a{
-    font-size: 150%;
-    text-decoration: none;
-    color: white;
-    font-family: impact;
-    display:inline;
+	font-size: 150%;
+	text-decoration: none;
+	display:inline;
 	margin-left: 7%;
+	font-family: impact;
+	color: white;
 }
 
-.menu a:hover {
-	color: firebrick;
-}
-
-
-.logo {
-	top: 2px;
+.logo{
+	top:2px;
 	left: 3%;
-	height: 54px;
-	width: 54px;
+	height:54px;
+	width:54px;
 	position: fixed;
 	transition: 0.5s ease;
 }
 
-.logo:hover {
-	filter:invert(100%);
-	border-radius:30px;
+.logo:hover{
+	filter: invert(100%);
+	border-radius: 30px;
 	transition: 0.5s ease;
 }
 
-
-
-.titolo img {
-	margin-left: 35%;
-	margin-top: 10%;
+.menu a:hover{
+	color: firebrick;
 }
 
-.titolo p {
+.back{
+	background-color: rgba(0,0,0,0.4);
+	position: fixed;
+	height: 10%;
+	top: 0;
+}
+
+.titolo img{
+	margin-left: 35%;
+	padding-top: 10%;
+	width: 500px;
+	height: 322px;
+}
+
+.titolo p{
 	text-align: center;
 	font-size: 120%;
-	color: white;
 	font-family: verdana;
+	color: white;
 }
 
-.tabella {
+.tabella{
 	margin: auto;
 	text-align: center;
 	font-family: impact;
-	font-variant: small-caps;
-	font-size: 150%;
 	color: white;
+	font-size: 150%;
+	font-variant: small-caps;
 }
 
-.pulsante {
-	height: 250px;
+.pulsante{
 	width: 400px;
+	height: 250px;
 	border-radius: 10px;
-	border-style:solid;
 	border-color: white;
+	border-style: solid;
 	filter: grayscale(100%);
 	transition: 0.5s ease;
 }
 
-.pulsante:hover {
+.pulsante:hover{
 	filter: grayscale(0);
-	transition: 1s ease;
-	width: 450px;
-	height: 280px;
+	transition: 0.5s ease;
+	width:450px;
+	height:280px;
 }
 
-.leggende{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("immagini/wraith.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.filtri {
+.filtri{
 	padding-left: 23%;
 	margin-top: 5%;
-	background-color: rgba(178,34,34, 0.7);
+	background-color: rgba(178,34,34,0.7);
 	width: auto;
 	margin-left: -7px;
 	margin-right: -7px;
 }
 
-.bottone { 
+.bottone{
 	display: inline-block;
-    margin: 20px 10px;
-    width: 150px;
-    height: 30px;
-    border:none;
-    border-radius: 20px;
-    background-color:rgba(0,0,0,0.7);
-    color:white;
-    text-decoration:none;
+	margin: 20px 10px;
+	width: 150px;
+	height: 30px;
+	border:none;
+	border-radius: 20px;
+	background-color:rgba(0,0,0,0.7);
+	color:white;
+	text-decoration:none;
 	font-family: impact;
 	font-size: 110%;
-	cursor:pointer;
+	cursor: pointer;
 }
 
-.bottone:hover {
+.bottone:hover{
 	background-color: white;
 	color: black;
+	
 }
 
-.bottone:active {
+.bottone:active{
 	background-color: gray;
 	color: firebrick;
 }
 
-.sfondo {
-	background-color: rgba(220,220, 220, 0.8);
+.sfondo{
+	background-color: rgba(220,220,220,0.7);
 	padding-left: 5%;
-	padding-right:5%;
+	padding-right: 5%;
 	margin: auto;
-	text-align: center;
-	width:100%;
+	text-align: center;	
+	width: 100%;
 }
 
-.spazio {
-	display:block;
+.spazio{
 	padding-bottom: 5%;
+	display: block;
 	border-top: 0px;
 	border-left: 0px;
 	border-right: 0px;
-	border-bottom:2px;
+	border-bottom: 2px;
 	border-style: solid;
 	border-color: darkgoldenrod;
 	
 }
 
-
-.photo {
+.photo{
 	height: 400px;
 	width: 200px;
 }
 
-.name {
+.name{
 	font-size: 300%;
 	font-variant: small-caps;
 	color: firebrick;
 	font-family: garamond;
 }
 
-.class {
+.class{
+	color: darkslategray;
 	font-size: 190%;
 	font-family: garamond;
-	color: darkslategray;
-	
 }
 
-.description {
-	font-size: 120%;
+.description{
 	font-family: verdana;
-	color: black;
+	font-size: 120%;
 	font-variant: small-caps;
 }
 
-.ability {
+.ability{
 	font-family: garamond;
 	font-size: 150%;
-	font-variant: small-caps;	
+	font-variant: small-caps;
 }
 
-.item {
+.tab{
+	font-family: garamond;
+	margin: auto;
+	width: 75%;
+	font-size: 110%;
+}
+
+.tab td, .tab th{
+	width: 5%;
+	padding-left: 5%;
+	padding-right: 7%;
+	text-align: center;
+}
+
+.item{
 	color: red;
 	font-size: 120%;
 	font-family: verdana;
-	
 }
 
-.tab {
-	margin: auto;
-	font-family: garamond;
-	font-size:110%;
-	width: 75%;
-}
-
-.tab td, .tab th {
-	width: 5%;
-	padding-left:5%;
-	padding-right: 7%;
-}
-
-.mappa {
+.mappa{
 	width: 100%;
 	height: 20%;
 }
 
-h2 {
+h2{
 	font-family: garamond;
-	font-size:4em;
-	color:firebrick;
-	padding-left: 20%;
-	margin:auto;
+	font-size: 4em;
+	color: firebrick;
 	font-weight: normal;
+	margin: auto;
+	margin-left: 20%;
 	padding-bottom:1%;
-	padding-top:1%;
-	
+	padding-top: 1%;
 }
 
-.sfondoM {
-	background-color: rgba(220,220, 220, 0.8);
-	width:100%;
-	padding-bottom:1%;
-}
-
-.des {
+.des{
 	font-family: verdana;
-	text-align:justify;
-	padding-bottom:7%;
+	text-align: justify;
+	padding-bottom: 7%;
 	font-size: 110%;
 	width: 70%;
-	margin:auto;
+	margin: auto;
 }
 
-::selection {
-	color: cornflowerblue;
-	background-color: white;
-}
-
-hr {
+hr{
 	margin-bottom: 10%;
 	width: 70%;
 }
 
+.sfondoM{
+	background-color: rgba(220,220,220,0.7);
+	padding-bottom: 1%;
+}
 
-
-
-
-
-
+::selection{
+	color: cornflowerblue;
+	background-color: white;
+}
