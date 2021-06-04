@@ -2,7 +2,7 @@
 
 Simone Orelli 1749732 lweb: http://lweb.dis.uniroma1.it/~lweb9/simone.orelli.XML-DOM/
 
-Angelica Della Vecchia 1746294 lweb: lweb.dis.uniroma1.it/~lweb18/angelica.dellavecchia.XML-DOM/
+Angelica Della Vecchia 1746294 lweb: http://lweb.dis.uniroma1.it/~lweb18/angelica.dellavecchia.XML-DOM/
 
 Indirizzo repository github: https://github.com/Cesio-organizzazione-di/Progetto_XML-DOM/
 
