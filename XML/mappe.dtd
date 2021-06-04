@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT mappe (mappa*)>
+<!ELEMENT mappa (nome, dimensione, descrizione, foto)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT dimensione (#PCDATA)>
+<!ELEMENT descrizione (#PCDATA)>
+<!ELEMENT foto (#PCDATA)>

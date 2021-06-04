@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personaggi SYSTEM "leggende.dtd">
+<personaggi>
+  <leggenda>
+    <nome>Bloodhound</nome>
+    <classe>Ricognitore</classe>
+    <descrizione>Cacciatrice tecnologica</descrizione>
+    <abilita>
+      <passiva>
+        <nome>Segugio</nome>
+        <descrizione>Guarda le tracce lasciate dai nemici</descrizione>
+      </passiva>
+      <tattica>
+        <nome>Occhio  degli dei</nome>
+        <descrizione>Rivela nemici, trappole e indizi nelle vicinanze</descrizione>
+      </tattica>
+      <ultimate>
+        <nome>Istinto primordiale</nome>
+        <descrizione>Acuisce i sensi, permettendoti di muoverti più velocemente e segnalando la preda</descrizione>
+      </ultimate>
+    </abilita>
+    <foto>immagini/leggende/bloodhound.png</foto>
+  </leggenda>
+
+  <leggenda>
+    <nome>Gibraltar</nome>
+    <classe>Difensore</classe>
+    <descrizione>Fortezza blindata</descrizione>
+    <abilita>
+      <passiva>
+        <nome>Scudo arma</nome>
+        <descrizione>Se usi il mirino, viene dispiegato uno scudo che blocca il fuoco in arrivo</descrizione>
+      </passiva>
+      <tattica>
+        <nome>Cupola protettiva</nome>
+        <descrizione>Crea uno scudo a cupola che blocca gli attacchi</descrizione>
+      </tattica>
+      <ultimate>
+        <nome>Pioggia di fuoco</nome>
+        <descrizione>Richiedi un colpo di mortaio concentrato su una posizione segnata</descrizione>
+      </ultimate>
+    </abilita>
+    <foto>immagini/leggende/gibraltar.png</foto>
+  </leggenda>
+
+  <leggenda>
+    <nome>Lifeline</nome>
+    <classe>Healer</classe>
+    <descrizione>Medico di guerra</descrizione>
+    <abilita>
+      <passiva>
+        <nome>Medico di guerra</nome>
+        <descrizione>Rilascia un drone che rianima gli alleati, lasciando Lifeline libera di muoversi e difendersi</descrizione>
+      </passiva>
+      <tattica>
+        <nome>Drone di guarigione</nome>
+        <descrizione>Rilascia un drone per curare automaticamente i compagni di squadra</descrizione>
+      </tattica>
+      <ultimate>
+        <nome>Capsula assistenza</nome>
+        <descrizione>Rilascia una capsula piena di equipaggiamento difensivo di alta qualità</descrizione>
+      </ultimate>
+    </abilita>
+    <foto>immagini/leggende/lifeline.png</foto>
+  </leggenda>
+  
+  <leggenda>
+    <nome>Pathfinder</nome>
+    <classe>Ricognitore</classe>
+    <descrizione>Ricognitore avanzato</descrizione>
+    <abilita>
+      <passiva>
+        <nome>Infiltrato</nome>
+        <descrizione>Scansiona un trasmettitore di rilevamento per scoprire la prossima posizione dell'anello</descrizione>
+      </passiva>
+      <tattica>
+        <nome>Rampino</nome>
+        <descrizione>Rampino per raggiungere rapidamente luoghi fuori portata</descrizione>
+      </tattica>
+      <ultimate>
+        <nome>Zipline master</nome>
+        <descrizione>Crea una zipline utilizzabile da tutti</descrizione>
+      </ultimate>
+    </abilita>
+    <foto>immagini/leggende/pathfinder.png</foto>
+  </leggenda>
+  
+    <leggenda>
+    <nome>Wraith</nome>
+    <classe>Assalto</classe>
+    <descrizione>Combattente interdimensionale</descrizione>
+    <abilita>
+      <passiva>
+        <nome>Voci dall'oblio</nome>
+        <descrizione>Senti una voce quando il pericolo si avvicina</descrizione>
+      </passiva>
+      <tattica>
+        <nome>Nell'oblio</nome>
+        <descrizione>Riposizionati rapidamente grazie alla sicurezza dello spazio dell'oblio, evitando tutti i danni</descrizione>
+      </tattica>
+      <ultimate>
+        <nome>Porta dimensionale</nome>
+        <descrizione>Collega 2 posizioni con portali per 60 secondi, permettendo all'intera squadra di usarli</descrizione>
+      </ultimate>
+    </abilita>
+    <foto>immagini/leggende/wraith.png</foto>
+  </leggenda>
+  
+    <leggenda>
+    <nome>Octane</nome>
+    <classe>Assalto</classe>
+    <descrizione>Temerario ad alta velocità</descrizione>
+    <abilita>
+      <passiva>
+        <nome>Pronta guarigione</nome>
+        <descrizione>Ripristina la salute gradualmente</descrizione>
+      </passiva>
+      <tattica>
+        <nome>Stimolanti</nome>
+        <descrizione>Aumenta la tua velocità del 30% per 6 secondi. Ti costerà della salute</descrizione>
+      </tattica>
+      <ultimate>
+        <nome>Trampolino</nome>
+        <descrizione>Lancia un trampolino per catapultare in aria i tuoi compagni di squadra</descrizione>
+      </ultimate>
+    </abilita>
+    <foto>immagini/leggende/octane.png</foto>
+  </leggenda>
+  
+    <leggenda>
+    <nome>Wattson</nome>
+    <classe>Difensore</classe>
+    <descrizione>Difensore statico</descrizione>
+    <abilita>
+      <passiva>
+        <nome>Lampo di genio</nome>
+        <descrizione>Accelerante ultimate carica completamente la tua abilità ultimate</descrizione>
+      </passiva>
+      <tattica>
+        <nome>Difesa perimetro</nome>
+        <descrizione>Crea barriere elettriche collegando nodi. Le barriere infliggono danni ai nemici e li rallentano</descrizione>
+      </tattica>
+      <ultimate>
+        <nome>Traliccio di intercettazione</nome>
+        <descrizione>Piazza un traliccio elettrificato che distrugge gli ordigni in arrivo e ripara gli scudi danneggiati</descrizione>
+      </ultimate>
+    </abilita>
+    <foto>immagini/leggende/wattson.png</foto>
+  </leggenda>
+
+  <leggenda>
+    <nome>Loba</nome>
+    <classe>Healer</classe>
+    <descrizione>Ladra dell'alta società</descrizione>
+    <abilita>
+      <passiva>
+        <nome>Occhio di lince</nome>
+        <descrizione>Puoi vedere il bottino epico e leggendario attraverso i muri</descrizione>
+      </passiva>
+      <tattica>
+        <nome>Trucchi del mestiere</nome>
+        <descrizione>Usa il teletrasporto per raggiungere i punti più impervi e tirarti fuori dalle situazioni di pericolo </descrizione>
+      </tattica>
+      <ultimate>
+        <nome>Boutique del mercato nero</nome>
+        <descrizione>Posiziona un dispositivo portatile che ti consente di trasferire il bottino vicino all'inventario.</descrizione>
+      </ultimate>
+    </abilita>
+    <foto>immagini/leggende/loba.png</foto>
+  </leggenda>
+</personaggi>

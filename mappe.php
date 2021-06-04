@@ -9,7 +9,7 @@
 		<div class="menu">
 			<a href="leggende.php">Leggende</a>
 			<a href="mappe.php">Mappe</a>
-			<a href="index.php"><img src="immagini/logo3.jpg" alt="logo" title="Home" class="logo" /></a>
+			<a href="index.php"><img src="immagini/logo2.jpg" alt="logo" title="Home" class="logo" /></a>
 		</div>
 		<div class="titolo">
 			<img src="immagini/titolo.png" alt="Apex Legends"/>
@@ -25,14 +25,15 @@
 			</form>
 		</div>
 		
-		<div class = "sfondoM">
-		<?php
-			if(empty($_GET['invio']) || $_GET['invio'] == 'Tutte')
-				stampa();
-			else
-				filtro();
-		?>
+		<div class="sfondoM">
+			<?php
+				if(empty($_GET['invio']) || $_GET['invio'] == 'Tutte')
+					stampa();
+				else
+					filtro();
+			?>
 		</div>
+		
 	</body>
 </html>
 
@@ -40,7 +41,7 @@
 
 	function stampa(){
 		$xmlMappa = "";
-		foreach( file("mappe.xml") as $nodo){
+		foreach( file("XML/mappe.xml") as $nodo){
 			$xmlMappa .= trim($nodo);
 		}
 		$doc = new DOMDocument();
@@ -62,15 +63,15 @@
 			$foto = $mappa->lastChild;
 			$fotoX = $foto->textContent;
 			
-			print "<img class = \"mappa\" src = \"".$fotoX."\" alt = \"photo\" />";
+			print "<img class=\"mappa\" src = \"".$fotoX."\" alt = \"photo\" />";
 			print "<h2>".$nomeX."</h2>";
-			print "<p class = \"des\">".$descrizioneX."<hr /></p>";
+			print "<p class=\"des\">".$descrizioneX."</p><hr />";
 		}
 	}
 	
 	function filtro(){
 		$xmlMappa = "";
-		foreach( file("mappe.xml") as $nodo){
+		foreach( file("XML/mappe.xml") as $nodo){
 			$xmlMappa .= trim($nodo);
 		}
 		$doc = new DOMDocument();
@@ -92,10 +93,10 @@
 			
 				$foto = $mappa->lastChild;
 				$fotoX = $foto->textContent;
-				
-				print "<img class = \"mappa\" src = \"".$fotoX."\" alt = \"photo\" />";
+			
+				print "<img class=\"mappa\" src = \"".$fotoX."\" alt = \"photo\" />";
 				print "<h2>".$nomeX."</h2>";
-				print "<p class = \"des\">".$descrizioneX."</p>";
+				print "<p class=\"des\">".$descrizioneX."</p>";
 			}
 		}
 	}

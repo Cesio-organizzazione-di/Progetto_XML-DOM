@@ -13,7 +13,7 @@
 		<div class="menu">
 			<a href="leggende.php">Leggende</a>
 			<a href="mappe.php">Mappe</a>
-			<a href="index.php"><img src="immagini/logo3.jpg" alt="logo" title="Home" class="logo" /></a>
+			<a href="index.php"><img src="immagini/logo2.jpg" alt="logo" title="Home" class="logo" /></a>
 		</div>
 		
 		<div class="titolo">
@@ -48,7 +48,7 @@
 
 	function stampa(){
 		$xmlLeggenda = "";
-		foreach( file("leggende.xml") as $nodo){
+		foreach( file("XML/leggende.xml") as $nodo){
 			$xmlLeggenda .= trim($nodo);
 		}
 		$doc = new DOMDocument();
@@ -104,7 +104,7 @@
 	
 	function filtro(){
 		$xmlLeggenda = "";
-		foreach( file("leggende.xml") as $nodo){
+		foreach( file("XML/leggende.xml") as $nodo){
 			$xmlLeggenda .= trim($nodo);
 		}
 		$doc = new DOMDocument();
