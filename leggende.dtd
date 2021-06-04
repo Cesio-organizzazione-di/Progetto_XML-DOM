@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT personaggi(leggenda *)>
+<!ELEMENT leggenda (nome, classe, descrizione, abilita, foto)>
+<!ELEMENT nome(#PCDATA)>
+<!ELEMENT classe(#PCDATA)>
+<!ELEMENT descrizione(#PCDATA)>
+<!ELEMENT abilita (passiva, tattica, ultimate)>
+<!ELEMENT passiva(nome, descrizione)>
+<!ELEMENT tattica(nome, descrizione)>
+<!ELEMENT ultimate(nome, descrizione)>
+<!ELEMENT foto(#PCDATA)>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mappe SYSTEM "mappe.dtd">
+<mappe>
+  <mappa>
+    <nome>Canyon dei Re</nome>
+    <dimensione>Piccola</dimensione>
+    <descrizione>Un tempo semplice insediamento sul pianeta Solace, l'isola conosciuta come Canyon dei Re prosperò grazie all'IMC, quando la scelse come luogo per ricerca e sviluppo. Era sede di una base aerea, di un impianto per il trattamento delle acque e di un'incredibile quantità di stabilimenti necessari per le operazioni dell'IMC, come ad esempio un progetto segretissimo sul funzionamento della tecnologia fasica e un programma volto alla creazione di un esercito di simulacri controllato da un'unica mente. All'apparenza, il Canyon dei Re non sembrava che una mera installazione dell'IMC che, se non altro, portò stabilità e posti di lavoro sul pianeta.Per sfogarsi, i soldati di stanza partecipavano a combattimenti in stile gladiatorio in un'area che chiamavano "Arena". Molti anni più tardi, quando la Commissione scelse il Canyon dei Re come sede di una nuova sanguinaria competizione, la zona di Arena rimase intatta, come per rendere omaggio ai combattimenti da cui derivarono gli Apex Games. L'isola è cambiata molto da allora, la Torre del Repulsore è stata abbattuta da un aggressore sconosciuto, un'esplosione in un deposito di simulacri abbandonato ha fatto sprofondare Skull Town e Arena, e la maggior parte dell'isola è stata oggetto di scavi sotto l'occhio attento della Commissione. Nonostante i cambiamenti, sarà sempre la mappa che per prima ha ospitato gli Apex Games.</descrizione>
+    <foto>immagini/mappe/canyon.jpg</foto>
+  </mappa>
+  
+  <mappa>
+    <nome>Confini del mondo</nome>
+    <dimensione>Media</dimensione>
+    <descrizione>Talos è un pianeta ostile tormentato da un'intensa attività vulcanica. Per questo motivo un tempo era ritenuto inabitabile e solo un piccolo gruppo di oppositori alla tecnologia riuscì a insediarsi. Ma quando un raro composto minerale fu scoperto in profondità, diventò il centro dell'attività dell'IMC. Furono costruite delle torri termoregolatrici per raffreddare i flussi di lava e permettere di estrarre le risorse. La struttura che le ospitava venne chiamata New Dawn ("Nuova Aurora"), e la città di Confini del Mondo si sviluppò tutt'intorno.Qualche decennio fa, un'esplosione in una delle torri congelò fatalmente l'area circostante. La città fu abbandonata e rimase solo una piccola comunità di cacciatori che un tempo disprezzavano la tecnologia moderna (ma l'accettarono provvisoriamente per seguire la loro eroina, Bloodhound). Tuttavia, le rovine e il terreno ricco di fonti di energia del pianeta attirarono l'attenzione di due gruppi importanti: la Commissione dei mercenari e la Hammond Robotics. Oggi, Confini del Mondo è la seconda casa degli Apex Games nonché un centro operativo fondamentale della Hammond Robotics, che vi ha installato un impianto ultramoderno per iniziare l'estrazione delle risorse: il Planet Harvester. </descrizione>
+    <foto>immagini/mappe/confini.jpg</foto>
+  </mappa>
+  
+  <mappa>
+    <nome>Olympus</nome>
+    <dimensione>Grande</dimensione>
+    <descrizione>Olimpo era una città costruita su un sogno. Un'utopia fluttuante tra le nuvole che si estendono su Psamathe, dove un tempo le menti più brillanti delle Terre Straniere si riunivano per scambiarsi idee e dare vita a incredibili scoperte scientifiche e artistiche. Ma non tutti i sogni hanno un lieto fine, e questo si trasformò in un incubo: un incidente in un laboratorio di ricerca sperimentale generò una gigantesca bolla di energia fasica, costringendo gli abitanti ad abbandonare la città.Tuttavia, Olimpo era alimentata da sistemi informatici all'avanguardia, perciò non fu difficile trovare nuovi acquirenti tra l'élite delle Terre Straniere. Per 40 anni è stata meta di vacanze lussuose, vantando diverse attrazioni turistiche. Purtroppo però, col passare del tempo la bolla di energia è diventata instabile e sei mesi fa Olimpo è stata interamente evacuata. Ora la Hammond Robotics, con l'aiuto della Commissione dei mercenari, ha trasformato la città in una nuova arena per gli Apex Games, anche se il motivo resta un mistero. </descrizione>
+    <foto>immagini/mappe/olimpo.jpg</foto>
+  </mappa>
+</mappe>
