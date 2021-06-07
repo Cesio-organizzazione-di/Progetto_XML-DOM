@@ -26,4 +26,4 @@ L'esercizio è composto da 8 file:
  - mappe.dtd: definizione della grammatica usata per scrivere il file precedente; 
  - stile.css: contiene le regole di stile per la visualizzazione. 
 
-
+NB: Sul bridge è stato caricato l'esercizio in formato rar privo di foto, caricando quindi solo i documenti PHP, CSS, XML, DTD, poiché la dimensione del file superava quella massima consentita.
