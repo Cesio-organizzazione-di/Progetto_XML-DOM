@@ -22,6 +22,7 @@
 		</div>
 		
 		<div class="filtri">
+				<a href="aggiungiLeggenda.php"><button class="bottone"> Aggiungi Leggenda</button></a>
 			<form action="leggende.php" method="get">
 				<input class="bottone" name="invio" type="submit" value="Tutti" />
 				<input class="bottone" name="invio" type="submit" value="Ricognitore" />
